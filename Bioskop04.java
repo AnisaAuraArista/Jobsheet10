@@ -23,8 +23,8 @@ public class Bioskop04 {
         }  
 
         System.out.println("\nPenonton pada baris ke-3: ");
-        for (int i = 0; i < penonton[2].length; i++) {
-            System.out.println(penonton[2][i]);
+         for (String nama : penonton[2]) {
+            System.out.println(nama);
         }
 
     }
